@@ -3,8 +3,8 @@
   apt:
     name: "{{ item }}"
   with_items:
-    - cups
     - cups-client
+    - cups
     - expect
   when: ansible_os_family == "Ubuntu"
   become: true
