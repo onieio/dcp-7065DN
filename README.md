@@ -1,1 +1,4 @@
-# dcp-7065DN
+ansible-role-brother
+====================
+
+Install driver for the brother printers and scanner
